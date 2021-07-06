@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>AboutUs</title>
+    <style>
+      body {
+        font-family:"Ubuntu",sans-serif;
+        margin: 0;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      .img{
+        padding-left: 20px;
+        padding-right:20px;
+        padding-top: 10px;
+      }
+      .column {
+        float: left;
+        width: 25%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: grey;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+      <div class="about-section">
+       <h1>About Us Page</h1>
+       <p>We are ComputerScience Graduates, Who designed this website.</p>
+       <p>We as a team worked on this website for the sake the fellow students who needs a paltform to sell/buy their academic things.</p>
+      </div>
+
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+       <div class="column">
+         <div class="card">
+           <img  src="Harsha.png" alt="Harsha" style="width:100%" class="img">
+           <div class="container">
+             <h2>Harsha</h2>
+             <p class="title">Team Member</p>
+             <p>An Enthusiast in web developing.</p>
+             <p><button class="button" style="background-color:#474e5d;">Contact</button></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="column">
+         <div class="card">
+           <img src="Sravan.jpg" alt="Sravan" class="img"style="width:100%">
+           <div class="container">
+             <h2>Sravan Rao</h2>
+             <p class="title">Team Member</p>
+             <p>Interested in Networking.</p>
+             <p><button style="background-color:#474e5d;" class="button" href="mailto:studentmarket.sp@gmail.com">Contact</button></p>
+           </div>
+         </div>
+       </div>
+
+       <div class="column">
+         <div class="card">
+           <img src="" alt="Nousin" class="img" style="width:100%">
+           <div class="container">
+             <h2>Shaik Nousin</h2>
+             <p class="title">Team Member</p>
+             <p></p>
+             <p><button style="background-color:#474e5d;" class="button">Contact</button></p>
+           </div>
+         </div>
+       </div>
+       <div class="column">
+         <div class="card">
+           <img src="" alt="Sohail" class="img"style="width:100%">
+           <div class="container">
+             <h2>Sohail Ahamed</h2>
+             <p class="title">Team Member</p>
+             <p>Passionate towards Ethical Hacking.</p>
+             <p><button style="background-color:#474e5d;" class="button">Contact</button></p>
+           </div>
+         </div>
+       </div>
+      </div>
+    </body>
+  </html>

@@ -1,0 +1,33 @@
+.form-label{
+  font-weight: bold;
+  color: #0e49b5;
+  font-family: "Ubuntu", sans-serif;
+}
+.form-control{
+  margin: 10px 0px 10px 10px;
+  margin-right: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
+.row{
+  margin: 20px 0px 20px 0px;
+}
+#btn{
+  background: #0e49b5;
+  color: #ffffff;
+}
+.bottom{
+  display: grid;
+  background-color: #2d4059;
+  grid-template-columns: 2fr 1.65fr 1fr;
+  padding-top: 20px;
+  color: #fdfdfd;
+  padding-bottom: 30px;
+
+}
+.Link{
+  color:#ffffff;
+}
+.col1
+{
+  padding-left: 50px;
+}
